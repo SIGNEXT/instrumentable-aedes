@@ -1,0 +1,31 @@
+[
+    {
+        "topic": "test/add1",
+        "operators": [
+            {
+                "type": "map",
+                "args": [
+                    "function (packet) { packet.payload = Buffer.from((parseInt(packet.payload.toString()) + 1).toString()); return packet; }"
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "test/dropall",
+        "operators": [
+            {
+                "type": "randomDrop",
+                "chance": 1
+            }
+        ]
+    },
+    {
+        "topic": "test/dropnone",
+        "operators": [
+            {
+                "type": "randomDrop",
+                "chance": 0
+            }
+        ]
+    }
+]
