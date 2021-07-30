@@ -4,6 +4,8 @@
 
 Barebone MQTT server that can run on any stream servers, with added instrumentable features that can be used for fault-injection porpuses.
 
+**Disclaimer**: This is part of a research project at the [Faculdade de Engenharia da Universidade do Porto](https://sigarra.up.pt/feup/en/web_page.inicial) and its usage in other scopes is not recommended.
+
 ## API
 
 - [Aedes object](./docs/Aedes.md)
