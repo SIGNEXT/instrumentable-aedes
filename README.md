@@ -11,6 +11,10 @@ Barebone MQTT server that can run on any stream servers, with added instrumentab
 - [Aedes object](./docs/Aedes.md)
 - [Client object](./docs/Client.md)
 
+## Experiments and Replication Package
+
+The data and code scripts necessary to replicate some experiments is available at [Zenodo](https://zenodo.org/record/5148566).
+
 ## Specification for the JSON config for Fault-Injection operators
 
 ### Base syntax
